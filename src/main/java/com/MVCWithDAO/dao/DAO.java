@@ -2,18 +2,15 @@ package com.MVCWithDAO.dao;
 
 import java.util.List;
 
-/**
- * Created by iballart on 16/04/18.
- */
 public interface DAO<T, K> {
 
-    void insert(T t);
+    void insert(T t) throws ExceptionDAO;
 
-    void modify(T t);
+    void modify(T t) throws ExceptionDAO;
 
-    void delete(T t);
+    void delete(T t) throws ExceptionDAO;
 
-    List<T> listAll();
+    List<T> listAll() throws ExceptionDAO;
 
-    T get(K id);
+    T get(K id) throws ExceptionDAO;
 }

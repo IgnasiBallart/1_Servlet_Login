@@ -1,5 +1,6 @@
 package com.MVCWithDAO.service.impl;
 
+import com.MVCWithDAO.dao.ExceptionDAO;
 import com.MVCWithDAO.dao.UserDAO;
 import com.MVCWithDAO.dao.impl.UserDAOImpl;
 import com.MVCWithDAO.entity.User;
@@ -26,7 +27,7 @@ public class UserServiceImpl implements UserService{
     }
 
     @Override
-    public boolean login(String username, String pass) {
+    public boolean login(String username, String pass) throws ExceptionDAO {
         getUserByUsername(username);
         if (userStatic.getUser().equals(username) && userStatic.getPassword().equals(pass)) {
             return true;
@@ -35,12 +36,12 @@ public class UserServiceImpl implements UserService{
     }
 
     @Override
-    public User getUserByUsername(String username) {
+    public User getUserByUsername(String username) throws ExceptionDAO {
         return userDAO.getUserByUsername(username);
     }
 
     @Override
-    public void insertUser(User u) {
+    public void insertUser(User u) throws ExceptionDAO {
         userDAO.insert(u);
     }
 }

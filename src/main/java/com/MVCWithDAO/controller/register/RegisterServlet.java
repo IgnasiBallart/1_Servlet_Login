@@ -33,10 +33,9 @@ public class RegisterServlet extends HttpServlet {
         try {
             if ((user.trim().equals("") || user == null) || (pass.trim().equals("") || pass == null)) {
                 System.out.println("Both fields must be filled");
+                response.sendRedirect("register.jsp");
             } else if (userService.getUserByUsername(user) == null) {
-
                 String passHashed = MD5Hash.hashString(pass);
-
                 userStatic.setUser(user);
                 userStatic.setPassword(passHashed);
                 userService.insertUser(userStatic);

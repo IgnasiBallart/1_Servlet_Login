@@ -6,16 +6,16 @@ import java.util.List;
 
 public interface UserDAO extends DAO<User, Integer> {
 
-    void insert(User u);
+    void insert(User u) throws ExceptionDAO;
 
-    void modify(User u);
+    void modify(User u) throws ExceptionDAO;
 
-    void delete(User u);
+    void delete(User u) throws ExceptionDAO;
 
-    List<User> listAll();
+    List<User> listAll() throws ExceptionDAO;
 
-    User get(Integer id);
+    User get(Integer id) throws ExceptionDAO;
 
-    User getUserByUsername(String username);
+    User getUserByUsername(String username) throws ExceptionDAO;
 
 }

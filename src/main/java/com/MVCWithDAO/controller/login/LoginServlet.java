@@ -28,7 +28,6 @@ public class LoginServlet extends HttpServlet{
 
         try{
             String passHashed = MD5Hash.hashString(pass);
-
             if (userService.login(user,passHashed)){
                 HttpSession session = request.getSession();
                 session.setAttribute("user", user);
@@ -39,6 +38,5 @@ public class LoginServlet extends HttpServlet{
         }catch (Exception e){
             e.printStackTrace();
         }
-
     }
 }
