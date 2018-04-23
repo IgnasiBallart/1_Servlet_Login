@@ -1,6 +1,7 @@
 package com.MVCWithDAO.controller.login;
 
 import com.MVCWithDAO.service.UserService;
+import com.MVCWithDAO.service.impl.MD5Hash;
 import com.MVCWithDAO.service.impl.UserServiceImpl;
 
 import javax.servlet.ServletException;
@@ -25,11 +26,19 @@ public class LoginServlet extends HttpServlet{
         String user = request.getParameter("user");
         String pass = request.getParameter("password");
 
-        if (userService.login(user,pass)){
-            HttpSession session = request.getSession();
-            session.setAttribute("user", user);
-            response.sendRedirect("login.jsp");
-        }else{
-            response.sendRedirect("index.jsp");}
+        try{
+            String passHashed = MD5Hash.hashString(pass);
+
+            if (userService.login(user,passHashed)){
+                HttpSession session = request.getSession();
+                session.setAttribute("user", user);
+                response.sendRedirect("login.jsp");
+            }else{
+                response.sendRedirect("index.jsp");
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
     }
 }

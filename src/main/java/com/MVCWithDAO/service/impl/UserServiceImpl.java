@@ -27,9 +27,7 @@ public class UserServiceImpl implements UserService{
 
     @Override
     public boolean login(String username, String pass) {
-
         getUserByUsername(username);
-
         if (userStatic.getUser().equals(username) && userStatic.getPassword().equals(pass)) {
             return true;
         }
