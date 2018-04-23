@@ -2,13 +2,11 @@ package com.MVCWithDAO.entity;
 
 import java.io.Serializable;
 
-/**
- * Created by iballart on 16/04/18.
- */
-
 public class User implements Serializable{
 
     private static final long serialVersionUID = 1L;
+
+    private static User userStatic;
 
     private int id;
 
@@ -19,10 +17,16 @@ public class User implements Serializable{
     public User(){
     }
 
-    public User(int id, String user, String password) {
-        this.id = id;
+    public User(String user, String password) {
         this.user = user;
         this.password = password;
+    }
+
+    public static User getDefaultInstance() {
+        if(userStatic == null) {
+            userStatic = new User();
+        }
+        return userStatic;
     }
 
     public int getId() {

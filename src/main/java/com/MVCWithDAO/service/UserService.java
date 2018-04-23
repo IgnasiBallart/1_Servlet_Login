@@ -7,4 +7,6 @@ public interface UserService {
     boolean login(String user, String password);
 
     User getUserByUsername(String user);
+
+    void insertUser(User u);
 }

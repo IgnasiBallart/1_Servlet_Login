@@ -12,19 +12,22 @@ import java.util.List;
 
 public class UserDAOImpl implements UserDAO {
 
-    private static final String INSERT = "INSERT INTO users(user, password) VALUES( ?, ?)";
+    private static final String INSERT = "INSERT INTO users(user, password) VALUES(?, ?)";
     private static final String UPDATE = "UPDATE users set user = ?, set password = ? WHERE id_user = ?";
     private static final String DELETE = "DELETE FROM users WHERE id_user = ?";
     private static final String GETALL = "SELECT id_user, user, password FROM users";
     private static final String GETONE = "SELECT id_user, user, password FROM users WHERE id_user = ?";
     private static final String GETONEbyUSERNAME = "SELECT id_user, user, password FROM users WHERE user = ?";
 
+    private static UserDAO userDAO;
+
     private ConnectionFactory connFactory;
 
-    private static UserDAO userDAO;
+    private User userStatic;
 
     public UserDAOImpl() {
         this.connFactory = ConnectionFactory.getInstance();
+        this.userStatic = User.getDefaultInstance();
     }
 
     public static UserDAO getDefaultInstance() {
@@ -89,12 +92,12 @@ public class UserDAOImpl implements UserDAO {
     }
 
     private User convert(ResultSet rs) throws SQLException {
-        int id = rs.getInt("id_user");
         String username = rs.getString("user");
         String password = rs.getString("password");
-        User user = new User(id, username, password);
+        userStatic.setUser(username);
+        userStatic.setPassword(password);
 
-        return user;
+        return userStatic;
     }
 
 

@@ -1,13 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89cf92d8-620e-454b-b945-b3e38ce2448a" name="Default" comment="" />
+    <list default="true" id="89cf92d8-620e-454b-b945-b3e38ce2448a" name="Default" comment="register test">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/cache.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/cache.properties.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/fileHashes.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/fileSnapshots.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/outputFileStates.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/taskArtifacts.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/1_Servlet_Login.war" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/3.5/fileContent/fileContent.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/3.5/taskHistory/taskHistory.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/MVCWithDAO/controller/register/RegisterServlet.class" afterPath="$PROJECT_DIR$/build/classes/main/com/MVCWithDAO/controller/register/RegisterServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/MVCWithDAO/dao/impl/UserDAOImpl.class" afterPath="$PROJECT_DIR$/build/classes/main/com/MVCWithDAO/dao/impl/UserDAOImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/MVCWithDAO/entity/User.class" afterPath="$PROJECT_DIR$/build/classes/main/com/MVCWithDAO/entity/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/MVCWithDAO/service/UserService.class" afterPath="$PROJECT_DIR$/build/classes/main/com/MVCWithDAO/service/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/MVCWithDAO/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/build/classes/main/com/MVCWithDAO/service/impl/UserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/1_Servlet_Login/exploded/1_Servlet_Login.war/WEB-INF/classes/com/MVCWithDAO/controller/register/RegisterServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/1_Servlet_Login/exploded/1_Servlet_Login.war/WEB-INF/classes/com/MVCWithDAO/controller/register/RegisterServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/1_Servlet_Login/exploded/1_Servlet_Login.war/WEB-INF/classes/com/MVCWithDAO/dao/impl/UserDAOImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/1_Servlet_Login/exploded/1_Servlet_Login.war/WEB-INF/classes/com/MVCWithDAO/dao/impl/UserDAOImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/1_Servlet_Login/exploded/1_Servlet_Login.war/WEB-INF/classes/com/MVCWithDAO/entity/User.class" afterPath="$PROJECT_DIR$/out/artifacts/1_Servlet_Login/exploded/1_Servlet_Login.war/WEB-INF/classes/com/MVCWithDAO/entity/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/1_Servlet_Login/exploded/1_Servlet_Login.war/WEB-INF/classes/com/MVCWithDAO/service/UserService.class" afterPath="$PROJECT_DIR$/out/artifacts/1_Servlet_Login/exploded/1_Servlet_Login.war/WEB-INF/classes/com/MVCWithDAO/service/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/1_Servlet_Login/exploded/1_Servlet_Login.war/WEB-INF/classes/com/MVCWithDAO/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/1_Servlet_Login/exploded/1_Servlet_Login.war/WEB-INF/classes/com/MVCWithDAO/service/impl/UserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/MVCWithDAO/controller/register/RegisterServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/MVCWithDAO/controller/register/RegisterServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/MVCWithDAO/dao/impl/UserDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/MVCWithDAO/dao/impl/UserDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/MVCWithDAO/entity/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/MVCWithDAO/entity/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/MVCWithDAO/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/MVCWithDAO/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/MVCWithDAO/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/MVCWithDAO/service/impl/UserServiceImpl.java" />
+    </list>
     <ignored path="1_Servlet_Login.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path=".idea/dataSources.local.xml" />
+    <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +46,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="true" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -25,20 +56,6 @@
     <option name="SORT_POSITIONED" value="false" />
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - 1_Servlet_Login@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="users" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="ExternalProjectsData">
@@ -53,7 +70,50 @@
           <activation />
         </task>
         <projects_view>
-          <tree_state />
+          <tree_state>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="1_Servlet_Login" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+            </PATH>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="1_Servlet_Login" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="Tasks" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode" />
+              </PATH_ELEMENT>
+            </PATH>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="1_Servlet_Login" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="Tasks" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="build" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode$1" />
+              </PATH_ELEMENT>
+            </PATH>
+          </tree_state>
         </projects_view>
       </state>
     </system>
@@ -63,61 +123,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/MVCWithDAO/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/MVCWithDAO/controller/login/LoginServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="28" column="41" selection-start-line="27" selection-start-column="12" selection-end-line="28" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#613#614#0" expanded="true" />
-                <element signature="e#684#685#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/MVCWithDAO/service/impl/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
-                <element signature="e#417#418#0" expanded="true" />
-                <element signature="e#850#851#0" expanded="true" />
-                <element signature="e#908#909#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/MVCWithDAO/dao/UserDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/MVCWithDAO/entity/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+            <state relative-caret-position="36">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
               <folding>
                 <element signature="method#toString#0;class#User#0" expanded="false" />
               </folding>
@@ -125,45 +135,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDAOImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/MVCWithDAO/dao/impl/UserDAOImpl.java">
+      <file leaf-file-name="RegisterServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/MVCWithDAO/controller/register/RegisterServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1027#1028#0" expanded="true" />
-                <element signature="e#1093#1094#0" expanded="true" />
-                <marker date="1524149049454" expanded="true" signature="383:430" placeholder="INSERT INTO users... " />
-                <marker date="1524149049454" expanded="true" signature="475:536" placeholder="UPDATE users... " />
-                <marker date="1524149049454" expanded="true" signature="581:616" placeholder="DELETE FROM " />
-                <marker date="1524149049454" expanded="true" signature="661:702" placeholder="SELECT id_us... users" />
-                <marker date="1524149049454" expanded="true" signature="747:806" placeholder="SELECT id_us... users" />
-                <marker date="1524149049454" expanded="true" signature="861:917" placeholder="SELECT id_us... users" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fa8ea3a5-060d-43bb-8044-522ae6da0bfa/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            <state relative-caret-position="54">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConnectionFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/MVCWithDAO/dao/ConnectionFactory.java">
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/MVCWithDAO/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            <state relative-caret-position="234">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
               <folding>
-                <element signature="e#813#814#0" expanded="true" />
-                <element signature="e#840#841#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
+                <element signature="e#960#961#0" expanded="true" />
+                <element signature="e#993#994#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDAOImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/MVCWithDAO/dao/impl/UserDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1524468395306" expanded="true" signature="383:429" placeholder="INSERT INTO users... " />
+                <marker date="1524468395306" expanded="true" signature="474:535" placeholder="UPDATE users... " />
+                <marker date="1524468395306" expanded="true" signature="580:615" placeholder="DELETE FROM " />
+                <marker date="1524468395306" expanded="true" signature="660:701" placeholder="SELECT id_us... users" />
+                <marker date="1524468395306" expanded="true" signature="746:805" placeholder="SELECT id_us... users" />
+                <marker date="1524468395306" expanded="true" signature="860:916" placeholder="SELECT id_us... users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/MVCWithDAO/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -179,6 +200,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="availableProjects">
@@ -556,12 +580,13 @@
         <option value="$PROJECT_DIR$/src/main/java/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/MVCWithDAO/dao/DBConnection.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/MVCWithDAO/controller/login/LoginServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MVCWithDAO/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/MVCWithDAO/dao/UserDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MVCWithDAO/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/MVCWithDAO/entity/User.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/fa8ea3a5-060d-43bb-8044-522ae6da0bfa/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MVCWithDAO/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MVCWithDAO/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/MVCWithDAO/dao/impl/UserDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MVCWithDAO/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/MVCWithDAO/controller/register/RegisterServlet.java" />
       </list>
     </option>
   </component>
@@ -583,6 +608,9 @@
         <option name="mavenHome" value="Bundled (Maven 3)" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1985" />
@@ -615,7 +643,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -875,6 +903,10 @@
               <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="register" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -910,10 +942,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1_Servlet_Login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1_Servlet_Login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1_Servlet_Login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1_Servlet_Login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".gradle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -922,9 +982,26 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="191" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="226" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="232" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1130" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="202" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="222" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="228" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1127" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -1543,11 +1620,21 @@
       <workItem from="1523948276590" duration="16898000" />
       <workItem from="1524033982201" duration="13621000" />
       <workItem from="1524120158607" duration="18173000" />
+      <workItem from="1524465659597" duration="5235000" />
+      <workItem from="1524474081421" duration="475000" />
     </task>
+    <task id="LOCAL-00001" summary="git ignore">
+      <created>1524473992853</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1524473992854</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95744000" />
+    <option name="totallyTimeSpent" value="101454000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1564,35 +1651,67 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23819743" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.583691" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24892704" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.8111588" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2832618" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18186843" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2443339" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18076286" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1779989" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18076286" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28218883" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40128756" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39914164" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24892704" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2832618" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1779989" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28218883" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23819743" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39914164" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24892704" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2832618" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18186843" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18076286" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1605,6 +1724,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="git ignore" />
+    <MESSAGE value="register test" />
+    <option name="LAST_COMMIT_MESSAGE" value="register test" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="38" />
@@ -1616,46 +1740,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MVCWithDAO/dao/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MVCWithDAO/dao/impl/UserDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
-            <element signature="e#1093#1094#0" expanded="true" />
-            <marker date="1524149049454" expanded="true" signature="383:430" placeholder="INSERT INTO users... " />
-            <marker date="1524149049454" expanded="true" signature="475:536" placeholder="UPDATE users... " />
-            <marker date="1524149049454" expanded="true" signature="581:616" placeholder="DELETE FROM " />
-            <marker date="1524149049454" expanded="true" signature="661:702" placeholder="SELECT id_us... users" />
-            <marker date="1524149049454" expanded="true" signature="747:806" placeholder="SELECT id_us... users" />
-            <marker date="1524149049454" expanded="true" signature="861:917" placeholder="SELECT id_us... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MVCWithDAO/controller/login/LogoutServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/MVCWithDAO/dao/ConnectionFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -1690,8 +1774,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1709,8 +1791,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1757,13 +1837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-378">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1775,27 +1848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1814,20 +1866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1628">
           <caret line="76" column="14" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MVCWithDAO/controller/register/RegisterServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
         </state>
       </provider>
     </entry>
@@ -1856,10 +1894,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
-          <folding>
-            <element signature="e#10065#10066#0" expanded="false" />
-            <element signature="e#10148#10149#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1867,7 +1901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="632">
           <caret line="161" column="34" selection-start-line="161" selection-start-column="34" selection-end-line="161" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1875,7 +1908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-14218">
           <caret line="115" column="22" selection-start-line="115" selection-start-column="22" selection-end-line="115" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1883,10 +1915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <marker date="1524128961165" expanded="false" signature="128:138" placeholder=" { " />
-            <marker date="1524128961165" expanded="false" signature="153:159" placeholder=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1894,14 +1922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <marker date="1524064738353" expanded="false" signature="209:220" placeholder=" { " />
-            <marker date="1524064738353" expanded="false" signature="235:241" placeholder=" }" />
-            <marker date="1524064738353" expanded="false" signature="280:291" placeholder=" { " />
-            <marker date="1524064738353" expanded="false" signature="307:313" placeholder=" }" />
-            <marker date="1524064738353" expanded="false" signature="344:355" placeholder=" { " />
-            <marker date="1524064738353" expanded="false" signature="372:378" placeholder=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1909,7 +1929,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="24" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1917,7 +1936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
           <caret line="235" column="29" selection-start-line="235" selection-start-column="29" selection-end-line="235" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1933,95 +1951,154 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MVCWithDAO/service/UserService.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fa8ea3a5-060d-43bb-8044-522ae6da0bfa/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MVCWithDAO/controller/login/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="28" column="41" selection-start-line="27" selection-start-column="12" selection-end-line="28" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/MVCWithDAO/dao/ConnectionFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="216">
           <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding>
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#840#841#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MVCWithDAO/entity/User.java">
+    <entry file="file://$PROJECT_DIR$/gradlew.bat">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        <state relative-caret-position="-108">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MVCWithDAO/controller/login/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
           <folding>
-            <element signature="method#toString#0;class#User#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/MVCWithDAO/dao/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="108">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/MVCWithDAO/service/impl/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/.gradle/2.9/taskArtifacts/cache.properties" />
+    <entry file="file://$PROJECT_DIR$/gradlew">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MVCWithDAO/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-            <element signature="e#908#909#0" expanded="true" />
+            <element signature="method#toString#0;class#User#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fa8ea3a5-060d-43bb-8044-522ae6da0bfa/console.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MVCWithDAO/controller/register/RegisterServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        <state relative-caret-position="54">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MVCWithDAO/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/MVCWithDAO/dao/impl/UserDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        <state relative-caret-position="360">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
-            <element signature="e#1093#1094#0" expanded="true" />
-            <marker date="1524149049454" expanded="true" signature="383:430" placeholder="INSERT INTO users... " />
-            <marker date="1524149049454" expanded="true" signature="475:536" placeholder="UPDATE users... " />
-            <marker date="1524149049454" expanded="true" signature="581:616" placeholder="DELETE FROM " />
-            <marker date="1524149049454" expanded="true" signature="661:702" placeholder="SELECT id_us... users" />
-            <marker date="1524149049454" expanded="true" signature="747:806" placeholder="SELECT id_us... users" />
-            <marker date="1524149049454" expanded="true" signature="861:917" placeholder="SELECT id_us... users" />
+            <marker date="1524468395306" expanded="true" signature="383:429" placeholder="INSERT INTO users... " />
+            <marker date="1524468395306" expanded="true" signature="474:535" placeholder="UPDATE users... " />
+            <marker date="1524468395306" expanded="true" signature="580:615" placeholder="DELETE FROM " />
+            <marker date="1524468395306" expanded="true" signature="660:701" placeholder="SELECT id_us... users" />
+            <marker date="1524468395306" expanded="true" signature="746:805" placeholder="SELECT id_us... users" />
+            <marker date="1524468395306" expanded="true" signature="860:916" placeholder="SELECT id_us... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/MVCWithDAO/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
           </folding>
         </state>
       </provider>
