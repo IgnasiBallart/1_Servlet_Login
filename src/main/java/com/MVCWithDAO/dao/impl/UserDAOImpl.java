@@ -171,13 +171,13 @@ public class UserDAOImpl implements UserDAO {
                 u = convert(rs);
             }
         }catch (SQLException ex){
-            ex.printStackTrace();
+            throw new ExceptionDAO("Error getUserByUsername SQL", ex);
         }finally {
             if(rs != null) {
                 try {
                     rs.close();
                 } catch (SQLException ex) {
-                    throw new ExceptionDAO("Error getUserByUsername SQL", ex);
+                    throw new ExceptionDAO("Error rs.close SQL", ex);
                 }
             }
             if(stat != null){
