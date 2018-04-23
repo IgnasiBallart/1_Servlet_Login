@@ -9,6 +9,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 @WebServlet(name = "RegisterServlet", urlPatterns = {"/register"}, loadOnStartup = 1)
@@ -34,6 +35,10 @@ public class RegisterServlet extends HttpServlet {
             userStatic.setUser(user);
             userStatic.setPassword(pass);
             userService.insertUser(userStatic);
+
+            HttpSession session = request.getSession();
+            session.setAttribute("user", user);
+            response.sendRedirect("login.jsp");
         }else{
             System.out.println("User already exists");
         }
