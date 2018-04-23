@@ -11,8 +11,11 @@ public class UserServiceImpl implements UserService{
 
     private UserDAO userDAO;
 
+    private User userStatic;
+
     public UserServiceImpl() {
         this.userDAO = UserDAOImpl.getDefaultInstance();
+        this.userStatic = User.getDefaultInstance();
     }
 
     public static UserService getDefaultInstance() {
@@ -24,10 +27,13 @@ public class UserServiceImpl implements UserService{
 
     @Override
     public boolean login(String username, String pass) {
-        if (getUserByUsername(username) == null) {
-            return false;
+
+        getUserByUsername(username);
+
+        if (userStatic.getUser().equals(username) && userStatic.getPassword().equals(pass)) {
+            return true;
         }
-        return true;
+        return false;
     }
 
     @Override
