@@ -10,7 +10,6 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 @WebServlet(name = "RegisterServlet", urlPatterns = {"/register"}, loadOnStartup = 1)
@@ -31,7 +30,7 @@ public class RegisterServlet extends HttpServlet {
         String pass = request.getParameter("password");
 
         try {
-            if ((user.trim().equals("") || user == null) || (pass.trim().equals("") || pass == null)) {
+            if (user.trim().equals("") || pass.trim().equals("")) {
                 System.out.println("Both fields must be filled");
                 response.sendRedirect("register.jsp");
             } else if (userService.getUserByUsername(user) == null) {
