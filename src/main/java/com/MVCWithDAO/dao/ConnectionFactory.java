@@ -3,9 +3,6 @@ package com.MVCWithDAO.dao;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-/**
- * Created by iballart on 13/04/18.
- */
 public class ConnectionFactory {
     private static ConnectionFactory ourInstance;
     private Connection conn;

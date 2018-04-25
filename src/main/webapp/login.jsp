@@ -4,10 +4,15 @@
     <title>You are logged in!</title>
 </head>
 <body>
-    <h2> Hi ${user}!</h2>
+    <h1>Login</h1>
+    <form method="post" action="login">
+        User:<input type="text" name="user">
+        Password:<input type="password" name="password">
 
-    <form method="get" action="logout">
-        <input type="submit" value="Logout">
+        <input type="submit" value="Log in">
     </form>
+    <a href="index.jsp">
+        <button>Back</button>
+    </a>
 </body>
 </html>

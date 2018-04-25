@@ -7,12 +7,12 @@
     <h1>Register</h1>
     <form method="post" action="register">
         User:<input type="text" name="user">
-        Password:<input type="text" name="password">
+        Password:<input type="password" name="password">
 
         <input type="submit" value="Register">
     </form>
     <a href="index.jsp">
-        <button>Back to login</button>
+        <button>Back</button>
     </a>
 </body>
 </html>

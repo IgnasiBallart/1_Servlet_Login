@@ -21,19 +21,19 @@ public class LoginServlet extends HttpServlet{
         this.userService = UserServiceImpl.getDefaultInstance();
     }
 
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
-        String user = request.getParameter("user");
-        String pass = request.getParameter("password");
+        String user = req.getParameter("user");
+        String pass = req.getParameter("password");
 
         try{
             String passHashed = MD5Hash.hashString(pass);
             if (userService.login(user,passHashed)){
-                HttpSession session = request.getSession();
+                HttpSession session = req.getSession();
                 session.setAttribute("user", user);
-                response.sendRedirect("login.jsp");
+                resp.sendRedirect("logged.jsp");
             }else{
-                response.sendRedirect("index.jsp");
+                resp.sendRedirect("login.jsp");
             }
         }catch (Exception e){
             e.printStackTrace();

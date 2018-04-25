@@ -38,6 +38,7 @@ public class RegisterServlet extends HttpServlet {
                 userStatic.setUser(user);
                 userStatic.setPassword(passHashed);
                 userService.insertUser(userStatic);
+                response.sendRedirect("login.jsp");
             } else {
                 System.out.println("User already exists");
                 response.sendRedirect("register.jsp");
