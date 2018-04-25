@@ -4,6 +4,7 @@ import com.MVCWithDAO.service.UserService;
 import com.MVCWithDAO.service.impl.MD5Hash;
 import com.MVCWithDAO.service.impl.UserServiceImpl;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -21,20 +22,36 @@ public class LoginServlet extends HttpServlet{
         this.userService = UserServiceImpl.getDefaultInstance();
     }
 
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp)
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        String user = req.getParameter("user");
-        String pass = req.getParameter("password");
+
+        HttpSession session = null;
+        String url;
+        String errorMessage = "";
+
+        //Pull the fields form the form
+        String user = request.getParameter("user");
+        String pass = request.getParameter("password");
 
         try{
+            //Encrypt the password
             String passHashed = MD5Hash.hashString(pass);
+            //If we found a user that matches the credential
             if (userService.login(user,passHashed)){
-                HttpSession session = req.getSession();
+                session.invalidate();
+                session = request.getSession(true);
                 session.setAttribute("user", user);
-                resp.sendRedirect("logged.jsp");
+                url = "home.jsp";
             }else{
-                resp.sendRedirect("login.jsp");
+                errorMessage = "Error: User or password are incorrect";
+                url = "login.jsp";
             }
+            //Set the error message
+            request.setAttribute("errorMessage", errorMessage);
+            //Forward our request
+            RequestDispatcher dispatcher = request.getRequestDispatcher(url);
+            dispatcher.forward(request, response);
+
         }catch (Exception e){
             e.printStackTrace();
         }

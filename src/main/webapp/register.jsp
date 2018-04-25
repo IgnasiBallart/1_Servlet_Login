@@ -6,11 +6,12 @@
 <body>
     <h1>Register</h1>
     <form method="post" action="register">
-        User:<input type="text" name="user">
-        Password:<input type="password" name="password">
-
+        User:<input type="text" name="user" required>
+        Password:<input type="password" name="password" required>
         <input type="submit" value="Register">
     </form>
+    ${errorMessage}
+    <br/>
     <a href="index.jsp">
         <button>Back</button>
     </a>
