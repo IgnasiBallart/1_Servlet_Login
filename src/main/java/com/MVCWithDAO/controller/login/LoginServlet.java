@@ -22,10 +22,15 @@ public class LoginServlet extends HttpServlet{
         this.userService = UserServiceImpl.getDefaultInstance();
     }
 
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.getRequestDispatcher("/login.jsp").forward(request, response);
+    }
+
+    @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        HttpSession session = null;
         String url;
         String errorMessage = "";
 
@@ -38,8 +43,7 @@ public class LoginServlet extends HttpServlet{
             String passHashed = MD5Hash.hashString(pass);
             //If we found a user that matches the credential
             if (userService.login(user,passHashed)){
-                session.invalidate();
-                session = request.getSession(true);
+                HttpSession session = request.getSession(true);
                 session.setAttribute("user", user);
                 url = "home.jsp";
             }else{
