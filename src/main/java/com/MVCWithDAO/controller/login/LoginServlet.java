@@ -45,10 +45,10 @@ public class LoginServlet extends HttpServlet{
             if (userService.login(user,passHashed)){
                 HttpSession session = request.getSession(true);
                 session.setAttribute("user", user);
-                url = "home.jsp";
+                url = "/menu/home";
             }else{
                 errorMessage = "Error: User or password are incorrect";
-                url = "login.jsp";
+                url = "/login";
             }
             //Set the error message
             request.setAttribute("errorMessage", errorMessage);

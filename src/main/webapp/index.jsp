@@ -6,10 +6,10 @@
 </head>
 <body>
     <h1>Welcome!</h1>
-    <a href="login.jsp">
+    <a href="/login">
         <button>Log in</button>
     </a>
-    <a href="register.jsp">
+    <a href="/register">
         <button>Register</button>
     </a>
 </body>

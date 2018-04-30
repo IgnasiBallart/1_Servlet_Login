@@ -12,7 +12,7 @@
     </form>
     ${errorMessage}
     <br/>
-    <a href="index.jsp">
+    <a href="/">
         <button>Back</button>
     </a>
 </body>

@@ -25,6 +25,12 @@ public class RegisterServlet extends HttpServlet {
         this.userStatic = User.getDefaultInstance();
     }
 
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.getRequestDispatcher("/register.jsp").forward(request, response);
+    }
+
+    @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
@@ -39,18 +45,18 @@ public class RegisterServlet extends HttpServlet {
             //If inputs are empty
             if (user.trim().equals("") || pass.trim().equals("")) {
                 errorMessage = "Both fields must be filled";
-                response.sendRedirect("register.jsp");
+                response.sendRedirect("/register");
             //If user does not exist we create it
             } else if (userService.getUserByUsername(user) == null) {
                 String passHashed = MD5Hash.hashString(pass);
                 userStatic.setUser(user);
                 userStatic.setPassword(passHashed);
                 userService.insertUser(userStatic);
-                url = "login.jsp";
+                url = "/login";
             //User already exists
             } else {
                 errorMessage = "Error: User already exists";
-                url = "register.jsp";
+                url = "/register";
             }
             //Set the error message
             request.setAttribute("errorMessage", errorMessage);

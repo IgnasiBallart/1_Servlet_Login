@@ -5,7 +5,7 @@
 </head>
 <body>
     <h2> Hi ${user}! You are logged!</h2>
-    <form method="get" action="logout">
+    <form method="get" action="/logout">
         <input type="submit" value="Logout">
     </form>
 </body>
