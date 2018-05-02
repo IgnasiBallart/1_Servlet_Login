@@ -1,4 +1,3 @@
-/*
 package com.MVCWithDAO.controller.login;
 
 import javax.servlet.*;
@@ -8,8 +7,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-@WebFilter("/Home*/
-/*")
+@WebFilter("/menu/*")
 public class LoginFilter implements Filter {
 
     @Override
@@ -39,4 +37,4 @@ public class LoginFilter implements Filter {
 
     }
 }
-*/
+
