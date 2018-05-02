@@ -1,4 +1,4 @@
-package com.MVCWithDAO.entity;
+package com.MVCWithDAO.model;
 
 import java.io.Serializable;
 

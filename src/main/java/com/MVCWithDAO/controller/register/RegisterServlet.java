@@ -1,11 +1,10 @@
 package com.MVCWithDAO.controller.register;
 
-import com.MVCWithDAO.entity.User;
+import com.MVCWithDAO.model.User;
 import com.MVCWithDAO.service.UserService;
 import com.MVCWithDAO.service.impl.MD5Hash;
 import com.MVCWithDAO.service.impl.UserServiceImpl;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;

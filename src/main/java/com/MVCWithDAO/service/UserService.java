@@ -1,7 +1,7 @@
 package com.MVCWithDAO.service;
 
 import com.MVCWithDAO.dao.ExceptionDAO;
-import com.MVCWithDAO.entity.User;
+import com.MVCWithDAO.model.User;
 
 public interface UserService {
 

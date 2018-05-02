@@ -3,7 +3,7 @@ package com.MVCWithDAO.service.impl;
 import com.MVCWithDAO.dao.ExceptionDAO;
 import com.MVCWithDAO.dao.UserDAO;
 import com.MVCWithDAO.dao.impl.UserDAOImpl;
-import com.MVCWithDAO.entity.User;
+import com.MVCWithDAO.model.User;
 import com.MVCWithDAO.service.UserService;
 
 public class UserServiceImpl implements UserService{

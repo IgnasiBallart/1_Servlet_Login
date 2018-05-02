@@ -3,7 +3,7 @@ package com.MVCWithDAO.dao.impl;
 import com.MVCWithDAO.dao.ConnectionFactory;
 import com.MVCWithDAO.dao.ExceptionDAO;
 import com.MVCWithDAO.dao.UserDAO;
-import com.MVCWithDAO.entity.User;
+import com.MVCWithDAO.model.User;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

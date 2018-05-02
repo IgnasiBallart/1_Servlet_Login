@@ -1,6 +1,6 @@
 package com.MVCWithDAO.dao;
 
-import com.MVCWithDAO.entity.User;
+import com.MVCWithDAO.model.User;
 
 import java.util.List;
 
