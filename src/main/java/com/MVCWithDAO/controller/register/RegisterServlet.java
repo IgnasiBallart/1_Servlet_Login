@@ -60,9 +60,8 @@ public class RegisterServlet extends HttpServlet {
             }
             //Set the error message
             request.setAttribute("errorMessage", errorMessage);
-            //Forward our request
-            RequestDispatcher dispatcher = request.getRequestDispatcher(url);
-            dispatcher.forward(request, response);
+            //Send redirect
+            response.sendRedirect(url);
 
         }catch (Exception e){
             e.printStackTrace();

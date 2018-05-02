@@ -4,7 +4,6 @@ import com.MVCWithDAO.service.UserService;
 import com.MVCWithDAO.service.impl.MD5Hash;
 import com.MVCWithDAO.service.impl.UserServiceImpl;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -52,9 +51,8 @@ public class LoginServlet extends HttpServlet{
             }
             //Set the error message
             request.setAttribute("errorMessage", errorMessage);
-            //Forward our request
-            RequestDispatcher dispatcher = request.getRequestDispatcher(url);
-            dispatcher.forward(request, response);
+            //Send redirect
+            response.sendRedirect(url);
 
         }catch (Exception e){
             e.printStackTrace();
